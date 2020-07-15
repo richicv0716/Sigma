@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Prueba</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel='stylesheet' href='css/index.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="text-center ">
+    <img class="img-fluid  padding-64" alt="sigma"
+      src='https://sigma-studios.s3-us-west-2.amazonaws.com/test/sigma-logo.png'>
+
+    <h1>Prueba de desarrollo sigma</h1>
+    <h5 class="parrafo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+      scrambled it to make a type specimen book. </h5>
+
+  </div>
+
+  <div class="container text-center padding-64">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid  " alt="sigma2"
+          src='https://sigma-studios.s3-us-west-2.amazonaws.com/test/sigma-image.png'>
+      </div>
+      <div class="col-sm-6 formulario">
+        <form style="padding-bottom:20px!important" action="formulario.php" >
+          <div class="form-group text-left">
+            <label for="txtDepartamento " class="padding-30">Departamento*</label>
+            <select class="form-control" aria-describedby="departamentoHelp" id="departamento">
+              <option>Antioquia</option>
+            </select>
+
+          </div>
+
+          <div class="form-group text-left">
+            <label for="txtDepartamento">Ciudad*</label>
+            <select class="form-control" aria-describedby="ciudadoHelp" id="ciudad">
+              <option>Medellín</option>
+            </select>
+          </div>
+          <div class="form-group text-left">
+            <label for="txtDepartamento">Nombre*</label>
+            <input type="text" class="form-control" id="nombre" aria-describedby="ciudadHelp"
+              placeholder="Pepito de jesús">
+          </div>
+          <div class="form-group text-left" style="padding-bottom:20px!important">
+            <label for="txtDepartamento">Correo*</label>
+            <input type="email" class="form-control" id="correo" aria-describedby="correoHelp"
+              placeholder="Pepitodejesus@gmail.com">
+          </div>
+          
+          <button type="submit" class="align-middle btn btn-primary boton morado" data-toggle="button" aria-pressed="false"  autocomplete="on">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
