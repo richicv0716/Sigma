@@ -1,0 +1,67 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+
+body{margin:0}
+
+html,body{font-family:Roboto;font-size:15px;line-height:1.5}
+
+html{overflow-x:hidden}
+
+h1{font-size:36px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
+h1,h2,h3,h4,h5,h6{
+    font-family:Roboto;
+    font-weight:400;
+    margin:10px 0}
+.padding-64{padding-top:64px!important;padding-bottom:30px!important}
+.padding-30{padding-top:30px!important}
+.responsive{overflow-x:auto}
+
+h1{font-weight:900;}
+
+h5{
+    color:gray;
+    font-weight:500;}
+
+label{
+        text-align: left!important;
+        font-weight:700;
+        font-size:15px;
+
+}
+
+div .parrafo{
+    max-width: 55%;
+    margin:0 auto;
+    padding-top: 35px!important;}
+
+.morado{
+background-color:#df3f66!important;
+border:none;}
+
+@media (max-width:601px)
+{
+.parrafo{
+    max-width: 100%;}
+}
+div.formulario{
+    border-radius: 20px ;
+    -webkit-box-shadow: -1px 1px 17px 0px gray;
+-moz-box-shadow: -1px 1px 17px 0px gray;
+box-shadow: -1px 1px 17px 0px gray;
+
+}
+
+.boton{
+    text-align: center!important;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px ;
+    font-size:30px;
+}
+
