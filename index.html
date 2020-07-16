@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src='script.js'></script>
 </head>
 
 <body>
@@ -33,10 +34,10 @@
           src='https://sigma-studios.s3-us-west-2.amazonaws.com/test/sigma-image.png'>
       </div>
       <div class="col-sm-6 formulario">
-        <form style="padding-bottom:20px!important" action="formulario.php" >
+        <form style="padding-bottom:20px!important" onsubmit='return validar( )' action="registro.php"  method="post" >
           <div class="form-group text-left">
             <label for="txtDepartamento " class="padding-30">Departamento*</label>
-            <select class="form-control" aria-describedby="departamentoHelp" id="departamento">
+            <select class="form-control" aria-describedby="departamentoHelp" name="departamento" id="departamento">
               <option>Antioquia</option>
             </select>
 
@@ -44,18 +45,18 @@
 
           <div class="form-group text-left">
             <label for="txtDepartamento">Ciudad*</label>
-            <select class="form-control" aria-describedby="ciudadoHelp" id="ciudad">
+            <select class="form-control" aria-describedby="ciudadoHelp" name="ciudad" id="ciudad">
               <option>Medellín</option>
             </select>
           </div>
           <div class="form-group text-left">
             <label for="txtDepartamento">Nombre*</label>
-            <input type="text" class="form-control" id="nombre" aria-describedby="ciudadHelp"
+            <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombreHelp"
               placeholder="Pepito de jesús">
           </div>
           <div class="form-group text-left" style="padding-bottom:20px!important">
             <label for="txtDepartamento">Correo*</label>
-            <input type="email" class="form-control" id="correo" aria-describedby="correoHelp"
+            <input type="email" class="form-control" id="correo" name="correo" aria-describedby="correoHelp"
               placeholder="Pepitodejesus@gmail.com">
           </div>
           
